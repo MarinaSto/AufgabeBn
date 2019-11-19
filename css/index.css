@@ -98,11 +98,79 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-   /* ... */
-
-
+body{
+  padding: 1.25em;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+header #logo{
+  max-width: 250.16px;
+  height: 5.94em;
+}
+header #logo{
+  max-width: 250.16px;
+  height: 3.75em;
+}
+#logo img{height: 100%;}
+nav a:hover, nav a:visited,nav a:link, a:active
+{
+  text-decoration: none;
+}
+header nav a{
+  font-size: 20px;
+  letter-spacing: 0;
+  color: #A2B3AF;
+}
+header nav .active{
+  color: #242424;
+  text-decoration: underline;
+}
+nav{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 23.44em; */
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+#banner {
+  width: 100%;
+  overflow: hidden;
+}
+#banner img{
+  height: 300px;
+  margin: auto;
+ }
+#text h4{
+  text-align: left;
+font: Bold 24px Roboto;
+letter-spacing: 0;
+color: #3C3C3C;
+text-transform: uppercase;
+opacity: 1;
+}
+#text p{
+  text-align: left;
+font-size: 20px ;
+letter-spacing: 0.9px;
+color: #3C3C3C;
+opacity: 1;
+}
+#gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#gallery img{
+  width: 100%;
+  margin:10px 0;
+}
 
 
 /* ==========================================================================
