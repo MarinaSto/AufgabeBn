@@ -254,6 +254,14 @@ opacity: 1;
   margin: 0;
   padding: 0 30px 30px 30px;
 }
+footer p{
+  letter-spacing: 0.9px;
+  font-size: 18px;
+  color: #3C3C3C ;
+}
+footer p span{
+  font-weight: 800;
+}
 /* .accordion .accordion-item__text-block p:first-child {
   padding-top: 0.5rem;
 } */
