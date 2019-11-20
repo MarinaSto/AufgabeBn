@@ -136,6 +136,7 @@ header nav .active{
 
 .topnav a.icon {
   background: white;
+  color: #242424;
   position: fixed;
   right: 0;
   top: 0;
@@ -145,6 +146,7 @@ header nav .active{
 
 header{
   padding: 1.25em;
+  padding-bottom: 0;
   position: fixed;
   top: 0;
   background: #ffffff;
