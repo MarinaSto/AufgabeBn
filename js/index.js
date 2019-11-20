@@ -5,6 +5,9 @@ $(document).ready(function () {
         $(this).addClass("active");
     });
 });
+window.addEventListener("hashchange", function () {
+    window.scrollTo(window.scrollX, window.scrollY - 135);
+});
 
 function myFunction() {
     var x = document.getElementById("myLinks");
