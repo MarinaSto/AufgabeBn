@@ -47,6 +47,7 @@ $('.galleryItem').magnificPopup({
 });
 
 // Klippbox
+$(document).ready(function () {
 var openCloseTab = document.getElementsByClassName('accordion-item__header');
 var openCloseIcon = document.getElementsByClassName('open-close-icon');
 
@@ -66,3 +67,4 @@ for (var i = 0; i < openCloseTab.length; i++) {
         }
     });
 }
+})
